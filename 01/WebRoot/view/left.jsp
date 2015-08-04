@@ -34,23 +34,14 @@
                         </tr>
                         <tr>
                             <td align="right">条&nbsp;&nbsp;件：</td>
-                            <td>
-                                <s2:select
-                                    emptyOption="true"
-                                    list="#session.searchMap"
-                                    listKey="value"
-                                    listValue="key"                             
-                                    name="searchInfo.subsql"/>
+                            <td>111
                             </td>
                             <td align="center" width="30"><s2:submit value="搜索"/></td>
                         </tr>
                         <tr>
                             <td align="right">搜索类型：</td>
                             <td colspan="2">
-                                <s2:radio 
-                                    list="#request.searchType"
-                                    value="%{'like'}"
-                                    name="searchInfo.type"/>                                
+                                222                                
                             </td>
                         </tr>
                         <tr height="10"><td colspan="3"></td></tr>
